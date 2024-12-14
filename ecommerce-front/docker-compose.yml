@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  application:
+    container_name: e-commerce-front-container
+    image: talel12/e-commerce-front
+    ports:
+      - "5000:80"
+   
